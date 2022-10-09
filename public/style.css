@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.app {
+    width: 100%;
+    background-color: gainsboro;
+    padding: 1rem;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.app nav img {
+    width: 150px;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+}
+
+.money {
+    background-color: rgb(30, 189, 165);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: .3rem;
+    position: sticky;
+    top: 0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* PRODUCT-CARD */
+.product {
+    background-color: white;
+    width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 15px rgb(4, 134, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(42, 177, 51);
+}
+
+.sell-btn,
+.buy-btn,
+.price-input {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    margin: .2rem;
+    width: 100px;
+    text-align: center;
+}
+.sell-btn:disabled,
+.buy-btn:disabled{
+    cursor:not-allowed;
+}
+
+.buy-btn {
+    background-color: rgb(30, 189, 165);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    
+    background-color: rgb(56, 157, 140);
+}
+
+.sell-btn {
+    background-color: gainsboro;
+    border: none;
+    border-radius: .5rem;
+    cursor:pointer;
+}
+
+.sell-btn:hover {
+    background-color: rgb(174, 174, 174);
+    
+}
+
+.price-input {
+    outline-color: rgb(56, 157, 140);
+}
+
+
+/* BASKET */
+
+.basket {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+table{
+    text-align: left;
+    width: 300px;
+    border-collapse: collapse;
+}
+td,th{
+    padding: .3rem;
+}
+
+.basket-price{
+    color: rgb(42, 177, 51);
+}
+tfoot td{
+    border-collapse:collapse;
+    border-top: 1px solid black ;
+}
