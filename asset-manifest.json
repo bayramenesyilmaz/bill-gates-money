@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/bill-gates-money/static/js/main.c18c4e7b.js",
+    "static/media/bill-gates.jpg": "/bill-gates-money/static/media/bill-gates.38f9513524ca59c509b5.jpg",
+    "index.html": "/bill-gates-money/index.html",
+    "main.c18c4e7b.js.map": "/bill-gates-money/static/js/main.c18c4e7b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c18c4e7b.js"
+  ]
+}
